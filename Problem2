@@ -1,0 +1,14 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+	int mass,volume,density ;
+	mass = density / volume ;
+	volume = density * mass ;
+	density = mass / volume ;
+	cout << "mass" ;
+	cin >> density >> volume ;
